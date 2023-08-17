@@ -1,0 +1,22 @@
+{
+    "name": "frontier",
+    "description": "Système d'authentification",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Jean Lionel",
+            "email": "nijeanlionel@email.com",
+            "homepage": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "nom_projet\\Frontier\\": "src/"
+        }
+    }
+}
